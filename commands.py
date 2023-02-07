@@ -12,7 +12,7 @@ from nostr.key import PrivateKey
 
 NOSTR_PRIVATE_KEY = PrivateKey.from_nsec(os.environ['NOSTR_PRIVATE_KEY'])
 NOSTR_PUBLICE_KEY = NOSTR_PRIVATE_KEY.public_key.hex()
-ETHERSCAN_API_KEY = os.environ['ETHERSCAN_API_KEY']
+#ETHERSCAN_API_KEY = os.environ['ETHERSCAN_API_KEY']
 AUTHOR_INFO = 'ferminrp'
 
 '''----------------------------------------FUNCTIONS----------------------------------------'''
